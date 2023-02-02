@@ -13,6 +13,23 @@ DuckStation is an simulator/emulator of the Sony PlayStation(TM) console, focusi
 
 A "BIOS" ROM image is required to to start the emulator and to play games. You can use an image from any hardware version or region, although mismatching game regions and BIOS regions may have compatibility issues. A ROM image is not provided with the emulator for legal reasons, you should dump this from your own console using Caetla or other means.
 
+## About this version
+This is a Duckstation port to run Simpsons Bowling on Arcade1Up's The Simpsons™ Arcade Machine. Changes were made specifically to run on the Android platform the Arcade Machine is running, and may not compile for other platforms.
+
+The associated ISO, EEPROM and BIOS are also omitted in this project. The required files are expected to be placed here:
+
+```
+/sdcard/arcade1up/simpsons/arcade.iso
+/sdcard/arcade1up/simpsons/eeprom
+/sdcard/arcade1up/simpsons/flash0
+/sdcard/arcade1up/simpsons/flash1
+/sdcard/arcade1up/simpsons/flash2
+/sdcard/arcade1up/simpsons/flash3
+/sdcard/arcade1up/bios/999a01.7e
+```
+
+Additional code credit: Datapower Development
+
 ## Latest News
 Older entries are available at https://github.com/stenzek/duckstation/blob/master/NEWS.md
 
